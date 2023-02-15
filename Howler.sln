@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FT3", "WindowsFormsApp2\FT3.csproj", "{1C9529D9-5316-4149-BD8B-2EFB8FA0164A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C9529D9-5316-4149-BD8B-2EFB8FA0164A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9529D9-5316-4149-BD8B-2EFB8FA0164A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9529D9-5316-4149-BD8B-2EFB8FA0164A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9529D9-5316-4149-BD8B-2EFB8FA0164A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5BF067D-DD00-4F86-B695-1108553D36FA}
+	EndGlobalSection
+EndGlobal
