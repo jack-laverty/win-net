@@ -1,3 +1,8 @@
+D:\source\WinNetwork\WinNetwork\bin\Debug\net6.0-windows\WinNetwork.exe
+D:\source\WinNetwork\WinNetwork\bin\Debug\net6.0-windows\WinNetwork.deps.json
+D:\source\WinNetwork\WinNetwork\bin\Debug\net6.0-windows\WinNetwork.runtimeconfig.json
+D:\source\WinNetwork\WinNetwork\bin\Debug\net6.0-windows\WinNetwork.dll
+D:\source\WinNetwork\WinNetwork\bin\Debug\net6.0-windows\WinNetwork.pdb
 D:\source\WinNetwork\WinNetwork\obj\Debug\net6.0-windows\WinNetwork.csproj.AssemblyReference.cache
 D:\source\WinNetwork\WinNetwork\obj\Debug\net6.0-windows\WinNetwork.MainForm.resources
 D:\source\WinNetwork\WinNetwork\obj\Debug\net6.0-windows\WinNetwork.csproj.GenerateResource.cache
@@ -5,11 +10,6 @@ D:\source\WinNetwork\WinNetwork\obj\Debug\net6.0-windows\WinNetwork.GeneratedMSB
 D:\source\WinNetwork\WinNetwork\obj\Debug\net6.0-windows\WinNetwork.AssemblyInfoInputs.cache
 D:\source\WinNetwork\WinNetwork\obj\Debug\net6.0-windows\WinNetwork.AssemblyInfo.cs
 D:\source\WinNetwork\WinNetwork\obj\Debug\net6.0-windows\WinNetwork.csproj.CoreCompileInputs.cache
-D:\source\WinNetwork\WinNetwork\bin\Debug\net6.0-windows\WinNetwork.exe
-D:\source\WinNetwork\WinNetwork\bin\Debug\net6.0-windows\WinNetwork.deps.json
-D:\source\WinNetwork\WinNetwork\bin\Debug\net6.0-windows\WinNetwork.runtimeconfig.json
-D:\source\WinNetwork\WinNetwork\bin\Debug\net6.0-windows\WinNetwork.dll
-D:\source\WinNetwork\WinNetwork\bin\Debug\net6.0-windows\WinNetwork.pdb
 D:\source\WinNetwork\WinNetwork\obj\Debug\net6.0-windows\WinNetwork.dll
 D:\source\WinNetwork\WinNetwork\obj\Debug\net6.0-windows\refint\WinNetwork.dll
 D:\source\WinNetwork\WinNetwork\obj\Debug\net6.0-windows\WinNetwork.pdb
