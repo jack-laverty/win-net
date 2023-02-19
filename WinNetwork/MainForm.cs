@@ -1,5 +1,6 @@
 namespace WinNetwork
 {
+    using System.Linq;
     using System.Net;
     using System.Net.Sockets;
 
@@ -11,11 +12,10 @@ namespace WinNetwork
         public MainForm()
         {
             InitializeComponent();
-            OutputWriteLine("Welcome to WinNetwork!");
             OutputWriteLine("");
             comms = new Comms();
         }
-        private void OutputWrite(string text, bool newline = false)
+        private void OutputWriteLine(string text)
         {
             // InvokeRequired required compares the thread ID of the
             // calling thread to the thread ID of the creating thread.
@@ -27,14 +27,14 @@ namespace WinNetwork
             }
             else
             {
-                this.textBoxStatus.AppendText(text);
-                if (newline) {
-                    this.textBoxStatus.AppendText(Environment.NewLine);
+                if (text != "")
+                {
+                    DateTime currentTime = DateTime.Now;
+                    text = (currentTime.ToString("hh:mm:ss tt")) + ":   " + text;
                 }
+                this.textBoxStatus.AppendText(text + Environment.NewLine);
             }
         }
-
-        private void OutputWriteLine(string text) { OutputWrite(text, true); }
 
         private void MainForm_Load(object sender, EventArgs e) {}
 
@@ -44,21 +44,24 @@ namespace WinNetwork
             {
                 OutputWriteLine("disconnected from device");
                 comms.Close();
-                dev1StatusLabel.Text = "Disconnected";
+                dev1StatusLabel.Hide();
                 connectButton.Text = "Connect";
             }
             else
             {
-                OutputWrite("connecting to device... ");
+                OutputWriteLine("connecting to device... ");
                 if (comms.Open() == true)
                 {
-                    OutputWriteLine("accepted");
-                    dev1StatusLabel.Text = "Connected";
-                    connectButton.Text = "Disconnect";
+                    OutputWriteLine("connection accepted");
+                    dev1StatusLabel.Show();
+                    connectButton.Text = "D/C";
+                    dev1RestartButton.Enabled = true;
+                    dev1LoadButton.Enabled = true;
+                    dev1SaveButton.Enabled = true;
                 }
                 else
                 {
-                    OutputWriteLine("refused");
+                    OutputWriteLine("connection refused");
                 }
             }
         }
@@ -70,6 +73,16 @@ namespace WinNetwork
             {
                 OutputWriteLine(s);
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dev1StatusLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
